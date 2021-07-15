@@ -9,6 +9,7 @@ export default function Header() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/people">Peoples</Link></li>
                 <li><Link to="/planet">Planets</Link></li>
+                <li><Link to="/vehicle">Vehicles</Link></li>
                 <li><Link to="/about">About</Link></li>
             </ul>
         </>

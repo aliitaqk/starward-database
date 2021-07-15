@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Home from './Pages/Home';
 import People from './Pages/People';
 import Planets from './Pages/Planets';
+import Vehicles from './Pages/Vehicles';
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
                 <Route path="/" component={ Home } exact />
                 <Route path="/people" component={ People } />
                 <Route path="/planet" component={ Planets } />
+                <Route path="/vehicle" component={ Vehicles } />
                 <Route path="/about" component={ About } />
             </div>
         </BrowserRouter>
